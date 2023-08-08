@@ -163,7 +163,7 @@ const NavBar = () => {
             <nav className="flex items-center justify-center flex-wrap mt-2">
               
 
-              <motion.a href='https://github.com/abdallah1936' target={"_black"}
+              <motion.a href='https://github.com/lmposter' target={"_black"}
                 className="w-8 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
@@ -171,7 +171,7 @@ const NavBar = () => {
                 <GithubIcon />
               </motion.a>
 
-              <motion.a href='https://www.linkedin.com/in/abdallahawadalla/' target={"_black"}
+              <motion.a href='https://www.linkedin.com/in/mahechen/' target={"_black"}
                 className="w-8 mx-3 sm:mx-1"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}

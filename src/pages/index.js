@@ -42,7 +42,7 @@ export default function Home() {
                 repeat={0}
               />
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                text="As a passionate computer science student, I thrive on harnessing the power of innovation and coding wizardry to shape a boundless world of possibilities, where dreams are seamlessly woven into awe-inspiring realities."
+                As a passionate computer science student, I thrive on harnessing the power of innovation and coding wizardry to shape a boundless world of possibilities, where dreams are seamlessly woven into awe-inspiring realities.
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/cv.pdf" target={'_blank'}

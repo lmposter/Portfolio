@@ -87,8 +87,17 @@ const NavBar = () => {
           <CustomLink href='/projects' title="Projects" className="mx-4" />
           <CustomLink href='/articles' title="Articles" className="ml-4" />
         </nav>
+
         <nav className="flex items-center justify-center flex-wrap">
-          <motion.a href='https://github.com/lmposter' target={"_black"}
+          <motion.a href='https://twitter.com/abdalla99393683' target={"_black"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-6 mx-3"
+          >
+            <TwitterIcon />
+          </motion.a>
+
+          <motion.a href='https://github.com/abdallah1936' target={"_black"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -96,7 +105,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
 
-          <motion.a href='https://www.linkedin.com/in/mahechen/' target={"_black"}
+          <motion.a href='https://www.linkedin.com/in/abdallahawadalla/' target={"_black"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -158,16 +167,16 @@ const NavBar = () => {
               <CustomMobileLink href='/articles' title="Articles" className="" toggle={handleCLick} />
             </nav>
 
-            {/*<nav className="flex items-center justify-center flex-wrap mt-2">
+            <nav className="flex items-center justify-center flex-wrap mt-2">
               <motion.a href='https://twitter.com/abdalla99393683' target={"_black"}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
                 className="w-8 mx-3 sm:mx-1"
               >
                 <TwitterIcon />
-              </motion.a>*/}
+              </motion.a>
 
-              <motion.a href='https://github.com/lmposter' target={"_black"}
+              <motion.a href='https://github.com/abdallah1936' target={"_black"}
                 className="w-8 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
@@ -175,7 +184,7 @@ const NavBar = () => {
                 <GithubIcon />
               </motion.a>
 
-              <motion.a href='https://www.linkedin.com/in/mahechen/' target={"_black"}
+              <motion.a href='https://www.linkedin.com/in/abdallahawadalla/' target={"_black"}
                 className="w-8 mx-3 sm:mx-1"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}

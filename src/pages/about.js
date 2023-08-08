@@ -51,15 +51,15 @@ const about = () => {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">About Me</h2>
               <p className="font-medium">
-                Hello, I&apos;m Mahe Chen, a full-stack software engineer with a knack for bridging design and functionality in web development. Leveraging my robust experience with JavaScript, HTML, CSS, React, and Node.js, I continuously seek innovative ways to turn my clients vision into reality.
+               Hello there! My name is Mahe Chen, and I&apos;m currently in my second year at the University of Toronto, where I&apos;m pursuing a dual specialist in Computer Science and Data Science. Although I&apos;m still in the early stages of my journey in the field, my foundation in programming applications is solid and diverse. My explorations span various domains, including game design, software engineering, web development, data analysis, and bioinformatics. Engaging actively at the University of Toronto, I&apos;m a member of several computer science clubs such as the Google Student Developer Club and the UofT AI Club, which continuously expand my perspectives.
               </p>
 
               <p className="my-4 font-medium">
-                I believe web development is more than just writing code – it&apos;s about solving challenges and crafting intuitive experiences for users. Whether I&apos;m building a full-stack web app or a classic PONG game, my commitment to engineering excellence and user-centered design is evident. I look forward to utilizing my skills and passion to make a significant impact on your next project.
+                During my leisure hours, I immerse myself in a range of hobbies that bring me joy. Playing the clarinet and saxophone, as well as composing music, allow me to express my creative side. Recently, I&apos;ve delved into the realm of business, finding a newfound passion in the realm of innovation and ideas. Beyond this, I prioritize my physical well-being by maintaining a regular gym routine, and in quieter moments, I lose myself in the pages of history books. This love for history has led me to take in a history course at UofT.
               </p>
 
               <p className="font-medium">
-                With a strong foundation in MERN stack development and an effective problem-solving aptitude, I seamlessly manage the end-to-end lifecycle of web applications. Having transitioned from warehouse management to software engineering, I bring a unique perspective that enables me to optimize solutions for improved user engagement. As I continue to learn and grow in this dynamic field, I look forward to the prospect of building more accessible, user-friendly, and innovative applications that truly make a difference.
+                A staunch advocate for collaboration, I thrive in team projects and value the wisdom gained from experienced developers. My journey as a software engineer is an ongoing adventure, and I enthusiastically welcome fresh challenges and opportunities along the way. Please don't hesitate to reach out – I&apos;m always here to connect!
               </p>
             </div>
 

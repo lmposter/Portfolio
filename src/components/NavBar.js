@@ -161,13 +161,7 @@ const NavBar = () => {
             </nav>
 
             <nav className="flex items-center justify-center flex-wrap mt-2">
-              <motion.a href='https://twitter.com/abdalla99393683' target={"_black"}
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.9 }}
-                className="w-8 mx-3 sm:mx-1"
-              >
-                <TwitterIcon />
-              </motion.a>
+              
 
               <motion.a href='https://github.com/abdallah1936' target={"_black"}
                 className="w-8 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"

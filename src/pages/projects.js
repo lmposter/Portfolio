@@ -169,22 +169,22 @@ const Projects = () => {
             <div className="col-span-12">
               <FeaturedProjects
 
-                title="NPS Mobile App"
+                title="Epic Battle Simulator"
                 img={project2}
-                summary="npsExplorer is a group project which resulted in a mobile-first application, offering users a personalized exploration experience of U.S. National Parks. Working as part of a small, dynamic team, I contributed my expertise in the MERN (MongoDB, Express, React, Node.js) stack, alongside Mongoose for effective MongoDB object modeling. The group-effort application presents extensive park details, suggested activities, historical context, and mesmerizing visuals, all sourced via the National Park Service API. I was personally responsible for incorporating a functionality that allows user image uploads through Uploadcare. This group project effectively showcases my skills in collaboratively developing visually-engaging applications, using a NoSQL backend and React frontend."
-                link="https://645ae12259fd3d52913fb954--grand-sunflower-c807ab.netlify.app/"
-                github="https://github.com/abdallah1936/npsexplorer-client"
+                summary="I designed a 3D top-view shooting game with Unity and C#, featuring strategic gameplay elements where players act as soldiers with the goal of capturing enemy outposts alongside AI allies."
+                link="https://play.unity.com/mg/other/epicbattlesimulator-webgl"
+                github="https://github.com/lmposter/EpicBattleSimulator"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 
             sm:col-span-12">
               <Project
-                title="Tic-Tac-Toe"
+                title="GCI Coding Club"
                 img={project3}
-                summary="My project, an enhanced version of the classic game Tic-Tac-Toe, was initiated following a React tutorial. Post-completion of the tutorial, I sought to elevate the user experience by reworking the CSS for a more intuitive and appealing game interface, as well as modifying JavaScript to highlight the winning sequence, as per the tutorial's recommendation. This project was not only a valuable learning exercise, but also a rewarding challenge that demonstrated my ability to take foundational code and iteratively improve upon it for a more enjoyable user experience."
-                link="https://tik-tak-toe-v2-0.vercel.app/"
-                github="https://github.com/abdallah1936/Tik-Tak-Toe-V2.0"
+                summary="Initiated a coding club of over 20 students in my high school to support student learning during COVID-19"
+                link="https://archive.mahechen.com"
+                github="https://archive.mahechen.com"
                 type="Project"
               />
             </div>

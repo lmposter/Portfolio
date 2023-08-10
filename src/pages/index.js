@@ -32,7 +32,7 @@ export default function Home() {
             <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
               <TypeAnimation
                 sequence={[
-                  'Transforming Imagination Into Reality, One Step At A Time'
+                  'Transforming Imagination Into Reality'
                 ]}
                 cursor={false}
                 wrapper="strong"

@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 import Image from 'next/image'
 import profilePic from '../../public/images/profile/AI_developer_image.jpg'
 import AnimatedText from '@/components/AnimatedText'
+import AnimatedTextOnce from '@/components/AnimatedTextOnce'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
 import HireMe from '@/components/HireMe'
@@ -41,9 +42,7 @@ export default function Home() {
                 style={{opacity: '1'}}
                 repeat={0}
               />
-              <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
-                As a passionate computer science student, I thrive on harnessing the power of innovation and coding wizardry to shape a boundless world of possibilities, where dreams are seamlessly woven into awe-inspiring realities.
-              </p>
+              <AnimatedTextOnce text="As a passionate computer science student, I thrive on harnessing the power of innovation and coding wizardry to shape a boundless world of possibilities, where dreams are seamlessly woven into awe-inspiring realities." className='my-4 text-base font-medium md:text-sm sm:text-xs'/>
               <div className='flex items-center self-start mt-2 lg:self-center'>
                 <Link href="/cv.pdf" target={'_blank'}
                 className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border border-solid dorder-transparent hover:border-dark

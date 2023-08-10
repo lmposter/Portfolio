@@ -17,7 +17,7 @@ const AnimatedTextOnce = ({ text, className = "" }) => {
   const quote = {
     initial: {
       opacity: 0,
-      y: 50,
+      y: -50,
     },
     animate: {
       opacity: 1,

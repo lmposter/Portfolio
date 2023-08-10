@@ -58,7 +58,7 @@ const Experience = () => {
             companyLink="https://www.uhn.ca"
             time="May 2023 - Aug 2023"
             address=" Toronto, ON, CAN"
-            work="Collaborated with researchers to analyze the neuronal activity associated with memory acquisition and retrieval, under the supervision of Dr. Sheena Josselyn, a senior scientist at The Hospital for Sick Children."
+            work="Collaborated with researchers to analyze the neuronal activity associated with memory acquisition and retrieval."
           />
           
         </ul>

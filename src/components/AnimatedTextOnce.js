@@ -1,55 +1,46 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
-const quote = {
-  initial: {
-    opacity: 1,
-  },
-  animate: {
-    opacity: 1,
-    transition: {
-      delay: 50000,
-      staggerChildren: 0,
-    }
-  }
-}
-
-const singalWord = {
-  initial: {
-    opacity: 0,
-    y: 50,
-  },
-  animate: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 1,
-    }
-  }
-}
-
 const AnimatedTextOnce = ({ text, className = "" }) => {
-  return (
-    <div className="w-full mx-auto py-2 flex items-center justify-center text-center overflow-hidden sm:py-0 
-    ">
+  const [startAnimation, setStartAnimation] = useState(false);
 
-      <motion.h1 className={`inline-block w-full test-dark font-bold capitalize text-8xl dark:text-light ${className}`}
-      variants={quote}
-      initial="initial"
-      animate="animate"
+  useEffect(() => {
+    const delayTimeout = setTimeout(() => {
+      setStartAnimation(true);
+    }, 3000); // 3000 milliseconds (3 seconds)
+
+    return () => {
+      clearTimeout(delayTimeout);
+    };
+  }, []);
+
+  const quote = {
+    initial: {
+      opacity: 0,
+      y: 50,
+    },
+    animate: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 1,
+        delay: startAnimation ? 0 : 3, // No delay if startAnimation is true
+      },
+    },
+  };
+
+  return (
+    <div className="w-full mx-auto py-2 flex items-center justify-center text-center overflow-hidden sm:py-0">
+      <motion.h1
+        className={`inline-block w-full test-dark font-bold capitalize text-8xl dark:text-light ${className}`}
+        variants={quote}
+        initial="initial"
+        animate={startAnimation ? "animate" : "initial"}
       >
-        {
-          text.split(" ").map((word, index) =>
-            <motion.span key={word + '-' + index} className="inline-block"
-            variants={singalWord}
-            >
-              {word}&nbsp;
-            </motion.span>
-          )
-        }
+        {text}
       </motion.h1>
     </div>
   );
-}
+};
 
 export default AnimatedTextOnce;

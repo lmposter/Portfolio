@@ -9,8 +9,8 @@ import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
 import project1 from "../../public/images/projects/u3d.png";
-import project2 from "../../public/images/projects/GCICC.png";
-
+import project2 from "../../public/images/projects/gcicc.png";
+import project3 from "../../public/images/projects/investwise.png";
 
 
 
@@ -188,20 +188,18 @@ const Projects = () => {
                 type="Project"
               />
             </div>
-            {/* <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener App"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
-                github="/"
+                title="InvestWise"
+                img={projecte}
+                summary="The InvestWise APP is a Python-based application designed to assist users in making informed investment decisions in the stock market. The project leverages a dataset of stock information obtained from Yahoo Finance and utilizes various algorithms to compute scores for each stock based on factors such as value, growth, quality, consistency, risk, ESG (Environmental, Social, and Governance), and dividend. These scores are then used to recommend optimal stocks to users based on their preferences."
+                link="https://github.com/lmposter/InvestWise"
+                github="https://github.com/lmposter/InvestWise"
                 type="Project"
               />
             </div>
 
-            <div className="col-span-12">
+            {/* <div className="col-span-12">
               <FeaturedProjects
 
                 title="Crypto Screener App"

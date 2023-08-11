@@ -8,7 +8,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
-import porject1 from "../../public/images/projects/u3d.png";
+import project1 from "../../public/images/projects/u3d.png";
 import project2 from "../../public/images/projects/GCICC.png";
 
 

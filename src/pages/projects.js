@@ -8,9 +8,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
+import porject1 from "../../public/images/projects/u3d.png";
+import project2 from "../../public/images/projects/GCICC.png";
 
-import project2 from "../../public/images/projects/NPS.jpg";
-import project3 from "../../public/images/projects/Tic-Tac-Toe.jpg";
 
 
 
@@ -151,7 +151,7 @@ const Projects = () => {
     <>
       <Head>
         <title>Mahe Chen | Projects</title>
-        <meta name="description" content="Mahe Chen | Full-Stack Software Engineer" />
+        <meta name="description" content="Mahe Chen | Software Engineer" />
       </Head>
 
       <TransitionEffect />
@@ -170,7 +170,7 @@ const Projects = () => {
               <FeaturedProjects
 
                 title="Epic Battle Simulator"
-                img={project2}
+                img={project1}
                 summary="I designed a 3D top-view shooting game with Unity and C#, featuring strategic gameplay elements where players act as soldiers with the goal of capturing enemy outposts alongside AI allies."
                 link="https://play.unity.com/mg/other/epicbattlesimulator-webgl"
                 github="https://github.com/lmposter/EpicBattleSimulator"
@@ -181,7 +181,7 @@ const Projects = () => {
             sm:col-span-12">
               <Project
                 title="GCI Coding Club"
-                img={project3}
+                img={project2}
                 summary="Initiated a coding club of over 20 students in my high school to support student learning during COVID-19"
                 link="https://archive.mahechen.com"
                 github="https://archive.mahechen.com"

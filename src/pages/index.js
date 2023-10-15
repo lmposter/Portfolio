@@ -30,7 +30,7 @@ export default function Home() {
               50vw'
               />
             </div>
-            <div className='w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center'>
+            <div className='w-1/2 flex flex-col items-start self-start lg:w-full lg:text-left'>
               <TypeAnimation
                 sequence={[
                   'Transforming Imagination Into Reality'

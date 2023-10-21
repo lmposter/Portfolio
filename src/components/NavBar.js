@@ -159,6 +159,7 @@ const NavBar = () => {
               className="" toggle={handleCLick} />
               <CustomMobileLink href='/projects' title="Projects" className="" toggle={handleCLick} />
               <CustomMobileLink href='/articles' title="Articles" className="" toggle={handleCLick} />
+              <CustomMobileLink href='https://club.mahechen.com/' title="Teaching" className="" toggle={handleCLick} />
             </nav>
 
             <nav className="flex items-center justify-center flex-wrap mt-2">

@@ -51,16 +51,15 @@ const about = () => {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">About Me</h2>
               <p className="font-medium">
-               Hello there! My name is Mahe Chen, and I&apos;m currently in my second year at the University of Toronto, where I&apos;m pursuing a dual specialist in Computer Science and Data Science. Although I&apos;m still in the early stages of my journey in the field, my foundation in programming applications is solid and diverse. My explorations span various domains, including game design, software engineering, web development, data analysis, and bioinformatics. Engaging actively at the University of Toronto, I&apos;m a member of several computer science clubs such as the Google Student Developer Club and the UofT AI Club, which continuously expand my perspectives.
+               1
               </p>
 
               <p className="my-4 font-medium">
-                During my leisure hours, I immerse myself in a range of hobbies that bring me joy. Playing the clarinet and saxophone, as well as composing music, allow me to express my creative side. Recently, I&apos;ve delved into the realm of business, finding a newfound passion in the realm of innovation and ideas. Beyond this, I prioritize my physical well-being by maintaining a regular gym routine, and in quieter moments, I lose myself in the pages of history books. This love for history has led me to take in a history course at UofT.
+                2
               </p>
 
               <p className="font-medium">
-                A staunch advocate for collaboration, I thrive in team projects and value the wisdom gained from experienced developers. My journey as a software engineer is an ongoing adventure, and I enthusiastically welcome fresh challenges and opportunities along the way. Please don't hesitate to reach out – I&apos;m always here to connect!
-              </p>
+                3
             </div>
 
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light dark:bg-dark dark:border-light xl:col-span-4 md:col-span-8

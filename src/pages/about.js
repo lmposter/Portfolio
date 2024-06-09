@@ -60,6 +60,7 @@ const about = () => {
 
               <p className="font-medium">
                 3
+              </p>
             </div>
 
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light dark:bg-dark dark:border-light xl:col-span-4 md:col-span-8

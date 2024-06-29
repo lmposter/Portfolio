@@ -3,7 +3,7 @@ import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
 
 
-const Details = ({ type, time, place, info, grade, courses, awards}) => {
+const Details = ({ type, time, place, degree, grade, awards, uoftscholar, bobsimkins, fasalumni}) => {
   const ref = useRef(null);
   return <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]">
 
@@ -20,17 +20,23 @@ const Details = ({ type, time, place, info, grade, courses, awards}) => {
       <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
         {time} | {place}
       </span>
-      <p className="font-medium w-full md:text-sm">
-        {info}
+      <p className="font-medium w-full md:text-sm" style={{ color: "#ADD8E6" }}>
+        {degree}
       </p>
-      <p className="font-medium w-full md:text-sm">
+      <p className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
         {grade}
       </p>
       <p className="font-medium w-full md:text-sm">
-        {courses}
-      </p>
-      <p className="font-medium w-full md:text-sm">
         {awards}
+      </p>
+      <p className="font-medium text-dark/75 dark:text-light/75 xs:text-sm">
+        {uoftscholar}
+      </p>
+      <p className="font-medium text-dark/75 dark:text-light/75 xs:text-sm">
+        {fasalumni}
+      </p>
+      <p className="font-medium text-dark/75 dark:text-light/75 xs:text-sm">
+        {bobsimkins}
       </p>
     </motion.div>
   </li>
@@ -60,18 +66,23 @@ const Education = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
             type="University of Toronto"
-            time="2022-2026"
-            place="Toronto, ON, CAN"
-            info=" • Honours Bachelor of Science in Computer Science and Data Science, Minor in Mathematics"
-            grade=" • CGPA: 4.00/4.00 (Dean's List Scholar)"
-            courses=" • Relevant Coursework: Big Data and Privacy, Foundations of Computer Science, Statistical Reasoning, Calculus with Proofs, Linear Algebra"
-            awards=" • Awards: UofT Scholar Award ($7,500); The Bob Simkins Memorial Scholarship in Science ($1,000)"
+            time="2022 - 2026"
+            place="Toronto, ON, Canada"
+            degree="Honours Bachelor of Science in Computer Science"
+            grade="CGPA: 3.99/4.00 (Dean's List Scholar 2022 - 2024)"
+            awards="Awards Received: "
+            uoftscholar="• University of Toronto Scholar Award ($7,500)"
+            fasalumni="• Faculty of Arts and Science Alumni & Friends Undergraduate Scholarships ($2,500)"
+            bobsimkins="• The Bob Simkins Memorial Scholarship in Science ($1,000)"
           />
           <Details
-            type="Glenlawn Collegiate"
-            time="2018-2022"
-            place="Winnipeg, MB, CAN"
-            info="Manitoba High School Diploma | Grade: 99% | Relevant Coursework: AP Calculus AB | Awards: Glenlawn Alumni Scholarship ($1,000)"
+            type="Glenlawn Collegiate Institute"
+            time="2018 - 2022"
+            place="Winnipeg, MB, Canada"
+            degree="High School Diploma"
+            grade="Overall Average: 99%"
+            awards="Awards Received: "
+            uoftscholar="Glenlawn Alumni Scholarship by the Winnipeg Foundation ($1,000)"
           />
         </ul>
       </div>

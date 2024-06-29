@@ -96,9 +96,9 @@ const about = () => {
 
             </div>
           </div>
-          <Skills />
           <Experience />
           <Education />
+          <Skills />
         </Layout>
       </main>
     </>

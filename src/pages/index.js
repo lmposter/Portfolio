@@ -10,8 +10,6 @@ import HireMe from '@/components/HireMe'
 import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg'
 import TransitionEffect from '@/components/TransitionEffect'
 import { TypeAnimation } from 'react-type-animation'
-import Particles from 'react-particles-js';
-import particlesConfig from '../particles.json';
 
 export default function Home() {
   return (
@@ -22,7 +20,7 @@ export default function Home() {
 
       </Head>
       <TransitionEffect />
-      <Particles params={particlesConfig} className="particles" />
+
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
         <Layout className='pt-0 md:p-16 sm:pt-8'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
